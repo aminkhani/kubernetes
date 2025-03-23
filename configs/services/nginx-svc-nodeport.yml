@@ -1,0 +1,13 @@
+# nginx nodeport service
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-service
+spec:
+  type: NodePort
+  ports:
+  - targetPort: 80
+    port: 80
+    nodePort: 30008 # default: 30000-32767
+  selector:
+    app: nginx # you have to create a pod with this label
