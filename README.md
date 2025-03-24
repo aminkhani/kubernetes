@@ -1,6 +1,14 @@
 # Kubernetes
 
 ## [Workloads](/workloads/README.md)
+
+- [Deployment](/workloads/deployment/README.md)
+- [DaemenSet](/workloads/daemonset/README.md)
+- [Job](/workloads/job/README.md)
+- [CronJob](/workloads/cronjob/README.md)
+- [ReplicaSet](/workloads/replicaset/README.md)
+- [StatefulSet](/workloads/statefulset/README.md)
+
 ## [Service](/service/README.md)
 
 - [ClusterIP](/service/ClusterIP/README.md)

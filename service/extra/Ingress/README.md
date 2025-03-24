@@ -18,7 +18,7 @@ Ingress exposes HTTP and HTTPS routes from outside the cluster to services withi
 
 Here is a simple example where an Ingress sends all its traffic to one Service:
 
-![Ingress](image-1.png)
+![Ingress](image.png)
 
 ## Install Ingress With [Helm]()
 
