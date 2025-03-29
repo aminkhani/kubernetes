@@ -2,21 +2,15 @@
 
 learning Kubernetes—from fundamentals to production-ready skills.
 
----
-
 ## 📘 Prerequisites
 
 - 📦 [Cloud-Native](./Prerequisites/Cloud-Native/)
 - 🏗 [Microservice vs Monolithic](./Prerequisites/MicroserviceVsMonolithic/)
 - 🐳 [Containers](./Prerequisites/Containers/)
 
----
-
 ## 🧠 Core Concepts
 
 - 🧬 [Kubernetes Architecture](./CoreConcepts/Architecture/README.md)
-
----
 
 ## ⚙️ Cluster Installation
 
@@ -25,8 +19,6 @@ learning Kubernetes—from fundamentals to production-ready skills.
 - 🔧 [Kubeadm](./ClusterInstallation/Kubeadm/kubeadm.md) – Manual production
 - 🤖 [Kubespray](./ClusterInstallation/Kubespray/kubespray.md) – Automated production *(recommended)*
 - 🧱 [Containerd](./ClusterInstallation/Containerd/containerd.md) – Container runtime
-
----
 
 ## 🧱 Workloads & Controllers
 
@@ -43,8 +35,6 @@ learning Kubernetes—from fundamentals to production-ready skills.
 - 🕒 [Job](/workloads/job/README.md)
 - 🔁 [CronJob](/workloads/cronjob/README.md)
 
----
-
 ## 🌐 Networking & Services
 
 - 🌉 [ClusterIP](/service/ClusterIP/README.md)
@@ -57,22 +47,18 @@ learning Kubernetes—from fundamentals to production-ready skills.
   - 🚪 [Gateway](/service/extra/Gateway/README.md)
   - 👻 [Headless Service](/service/extra/Headless/README.md)
 
----
-
 ## 🧩 Configuration
 
 - 🗺 [ConfigMaps]()
 - 🔐 [Secrets]()
 
----
+## 🧪 [Multi-Container Patterns](./Multi-ContainerPatterns/README.md)
 
-## 🧪 Multi-Container Patterns
-
-- ⏱ [Init Containers]()
-- 🧾 [Sidecar Containers]()
+- ⏱ [Init Container Pattern]()
+- 🧾 [Sidecar Pattern]()
 - 🧠 [Adapter Pattern]()
-
----
+- 📦 [Work Queue Pattern]()
+- 📤 [Ambassador Pattern]()
 
 ## 💾 Storage
 
@@ -80,15 +66,11 @@ learning Kubernetes—from fundamentals to production-ready skills.
 - 📥 [PersistentVolumeClaim (PVC)]()
 - 🐂 [Longhorn (Distributed storage)]()
 
----
-
 ## 🎛 Resource & Quota Management
 
 - 🧮 [Requests & Limits]()
 - 📊 [Resource Quotas]()
 - 📦 [LimitRanges]()
-
----
 
 ## 🔐 Policy & Security
 
@@ -97,14 +79,10 @@ learning Kubernetes—from fundamentals to production-ready skills.
 - 🧩 PodSecurity Standards
 - 🔐 RBAC & Service Accounts
 
----
-
 ## 🌉 Service Mesh
 
 - 🧭 [Istio](), Linkerd, Consul, etc.
 - 🔄 Traffic splitting, mTLS, telemetry
-
----
 
 ## 🧠 Monitoring & Observability
 
@@ -113,32 +91,22 @@ learning Kubernetes—from fundamentals to production-ready skills.
 - 📜 [Audit Logs]()
 - 🪵 Centralized Logging (EFK/ELK)
 
----
-
 ## 💾 Backup & Disaster Recovery
 
-- ♻️ [Velero]()
-
----
+- ♻️ [Velero](./Backup&DisasterRecovery/Velero/README.md)
 
 ## 📦 Package Management
 
 - 🧰 [Helm](./helm/README.md)
-
----
 
 ## 🔄 CI/CD Integration
 
 - 🚢 [ArgoCD]() / FluxCD (GitOps)
 - ⚙️ Jenkins, [GitLab](), GitHub Actions
 
----
-
 ## 🧑‍🌾 Cluster Management
 
 - 🌄 [Rancher](./rancher/README.md)
-
----
 
 ## 📂 Manifests Examples
 
@@ -147,8 +115,6 @@ learning Kubernetes—from fundamentals to production-ready skills.
   - 👷 [DaemonSets](/configs/daemonsets/README.md)
   - 🌐 [Services](/configs/services/README.md)
   - 🧰 [Extras](/configs/extra/README.md)
-
----
 
 ## 🌟 Bonus Topics (Optional but Valuable)
 
